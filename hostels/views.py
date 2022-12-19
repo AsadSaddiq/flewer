@@ -257,10 +257,10 @@ class roomImgapiDelete(APIView):
 
 
 
-obj = Hostel.objects.get(id=1)
-field_object = Hostel._meta.get_field('avaliable_gust_seat')
-field_value = getattr(obj, field_object.attname)
-print(field_value)
+# obj = Hostel.objects.get(id=1)
+# field_object = Hostel._meta.get_field('avaliable_gust_seat')
+# field_value = getattr(obj, field_object.attname)
+# print(field_value)
 
 class hostelRoomBooking(APIView):
   # permission_classes = [IsAuthenticated]
